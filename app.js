@@ -7,14 +7,15 @@ const nav=[{link:'/index',name:'Home'},
 {link:'/books',name:'Books'},
 {link:'/authors',name:'Authors'},
 {link:'/auth/login',name:'Log-In'},
-{link:'/auth/signup',name:'Sign-Up'}]
-const navadmin=[{link:'/index',name:'Home'},
-{link:'/books',name:'Books'},
-{link:'/authors',name:'Authors'},
-{link:'/auth/login',name:'Log-In'},
 {link:'/auth/signup',name:'Sign-Up'},
 {link:'/addbook',name:'Add New Book'},
 {link:'/addauthor',name:'Add New Author'}]
+
+const navstud=[{link:'/index',name:'Home'},
+{link:'/books',name:'Books'},
+{link:'/authors',name:'Authors'},
+{link:'/auth/login',name:'Log-In'},
+{link:'/auth/signup',name:'Sign-Up'}]
 
 
 const booksRouter=require('./src/routes/bookRoutes')(nav);
